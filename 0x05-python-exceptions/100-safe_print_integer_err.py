@@ -1,14 +1,27 @@
 #!/usr/bin/python3
+<<<<<<< HEAD
 
+=======
+>>>>>>> bef071bb49a026192ca1497aaffdbc0ed6c3453f
 import sys
 
 
 def safe_print_integer_err(value):
     """Prints an integer with "{:d}".format().
+<<<<<<< HEAD
     If a ValueError message is caught, a corresponding
     message is printed to standard error.
     Args:
         value (int): The integer to print.
+=======
+
+    If a ValueError message is caught, a corresponding
+    message is printed to standard error.
+    
+    Args:
+        value (int): The integer to print.
+    
+>>>>>>> bef071bb49a026192ca1497aaffdbc0ed6c3453f
     Returns:
         If a TypeError or ValueError occurs - False.
         Otherwise - True.
