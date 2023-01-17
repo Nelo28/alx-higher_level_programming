@@ -256,7 +256,6 @@ class TestBase_from_json_string(unittest.TestCase):
     def test_from_json_string_one_square(self):
         list_input = [{"id": 89, "size": 10, "height": 4}]
         json_list_input = Square.to_json_string(list_input
-
         list_output = Square.from_json_string(json_list_input)
         self.assertEqual(list_input, list_output)
 
