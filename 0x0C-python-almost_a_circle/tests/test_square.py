@@ -21,7 +21,7 @@ from models.square import Square
 
 
 class TestSquare_instantiation(unittest.TestCase):   
- """Unittests for testing instantiation of the Square class."""
+    """Unittests for testing instantiation of the Square class."""
 
     def test_is_base(self):
         self.assertIsInstance(Square(10), Base)
